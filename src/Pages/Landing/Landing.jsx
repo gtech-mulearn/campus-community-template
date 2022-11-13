@@ -1,18 +1,14 @@
-import React from 'react'
-import styles from "./Landing.module.css"
+import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
+import styles from "./Landing.module.css";
 
 const Landing = () => {
   return (
     <>
-   <div className={styles.main_container}>
-    <div className={styles.first_view_container}>
-        <div className={styles.first_view}>
-            This is the Landing Page
-        </div>
-    </div>
-   </div>
+      <Navbar />
+      
     </>
-  )
-}
+  );
+};
 
-export default Landing
+export default Landing;
