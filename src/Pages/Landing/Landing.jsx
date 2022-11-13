@@ -22,6 +22,18 @@ const Landing = () => {
             </div>
           </div>
         </div>
+        <div className={styles.second_view_container}>
+          <div className={styles.second_view}>
+            <p className={styles.sv_header}>
+              Events <div></div>
+            </p>
+          </div>
+          <div className={styles.sv_events_container}>
+            <EventsCard />
+            <EventsCard />
+            <EventsCard />
+          </div>
+        </div>
       </div>
     </>
   );

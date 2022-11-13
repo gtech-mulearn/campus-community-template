@@ -76,3 +76,41 @@
     /* margin: auto; */
   }
 }
+
+/* Second View Styles */
+
+.sv_header {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.sv_header div {
+  min-width: 60px;
+  min-height: 5px;
+  display: inline-block;
+  background-color: #0a00e1;
+  margin-left: 0.75rem;
+}
+
+.second_view_container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.sv_events_container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
