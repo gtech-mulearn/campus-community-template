@@ -1,6 +1,7 @@
 import React from "react";
 import EventsCard from "../../Components/EventsCard/EventsCard";
 import Navbar from "../../Components/Navbar/Navbar";
+import TeamCard from "../../Components/TeamCard/TeamCard";
 import styles from "./Landing.module.css";
 
 const Landing = () => {
@@ -32,6 +33,21 @@ const Landing = () => {
             <EventsCard />
             <EventsCard />
             <EventsCard />
+          </div>
+        </div>
+        <div className={styles.third_view_container}>
+          <div className={styles.third_view}>
+            <p className={styles.tv_header}>
+              Team <div></div>
+            </p>
+            <div className={styles.team_cards_container}>
+              <TeamCard />
+              <TeamCard />
+              <TeamCard />
+              <TeamCard />
+              <TeamCard />
+              
+            </div>
           </div>
         </div>
       </div>
