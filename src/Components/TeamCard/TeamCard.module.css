@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  margin: 1.5rem 3rem ;
 }
 .card_image {
   width: 160px;
