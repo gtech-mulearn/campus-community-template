@@ -11,12 +11,14 @@ const Landing = () => {
           <Navbar />
           <div className={styles.first_view_texts}>
             <div className={styles.first_view_heading}>GTech MuLearn CUCEK</div>
-            <div className={styles.first_view_description}>
+            <p className={styles.first_view_description}>
               A nonprofit network of high school coding clubs and makers around
               the world, for the students, by the students.
-            </div>
+            </p>
             <div className={styles.join_button}>
-              <button className={styles.join_campus_button}>Join Us</button>
+              <button className={styles.join_campus_button}>
+                Join Us <img src="/assets/button.png" alt="" />
+              </button>
             </div>
           </div>
         </div>

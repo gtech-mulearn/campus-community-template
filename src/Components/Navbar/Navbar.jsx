@@ -9,13 +9,13 @@ const Navbar = () => {
           <div className={styles.navbar}>
             <img
               className={styles.navbar_logo}
-              src="/assets/navbar/logo.svg"
+              src="/assets/navbar/logo.png"
               alt=""
             />
             <div className={styles.navbar_options}>
               <p className={styles.navbar_item}>Event</p>
               <p className={styles.navbar_item}>Team</p>
-              <p className={styles.navbar_item}>Interest Group</p>
+              {/* <p className={styles.navbar_item}>Interest Group</p> */}
             </div>
           </div>
         </div>

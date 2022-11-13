@@ -5,14 +5,17 @@
 
 .first_view_container {
   color: white;
-
   padding: 2rem;
-  background-image: url("homebg.png");
+  background: url("homebg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .first_view_texts {
   display: flex;
-  min-height: 100vh;
+  min-height: 60vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -23,7 +26,7 @@
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 900;
-  font-size: 3.25rem;
+  font-size: 3.5rem;
   line-height: 126.78%;
   color: transparent;
   /* or 81px */
@@ -34,11 +37,42 @@
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 152%;
   /* or 36px */
 
   text-align: center;
-
   color: #ffffff;
+}
+
+.join_campus_button {
+  padding: 1rem 2rem;
+  border: none;
+  gap: 8px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.join_campus_button img {
+  width: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .first_view_heading {
+    font-size: 4rem;
+  }
+
+  .first_view_description {
+    font-size: 1.1rem;
+    width: 40%;
+    display: block;
+    /* margin: auto; */
+  }
 }

@@ -1,11 +1,12 @@
 .navbar_logo {
-  width: 6rem;
+  height: 1.75rem;
 }
 
 .navbar {
   margin: 1rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar_options {
@@ -16,3 +17,10 @@
   margin: 0.5rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main_container{
+    max-width: 1300px;
+    display: block;
+    margin: auto;
+  }
+}
