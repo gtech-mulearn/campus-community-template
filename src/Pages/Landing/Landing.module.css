@@ -3,4 +3,42 @@
   padding: 0;
 }
 
+.first_view_container {
+  color: white;
 
+  padding: 2rem;
+  background-image: url("homebg.png");
+}
+
+.first_view_texts {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.first_view_heading {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.25rem;
+  line-height: 126.78%;
+  color: transparent;
+  /* or 81px */
+  -webkit-text-stroke: 2px #fff;
+}
+
+.first_view_description {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 152%;
+  /* or 36px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
