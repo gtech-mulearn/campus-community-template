@@ -1,0 +1,53 @@
+.event_card {
+  max-width: 15rem;
+  margin: 1rem;
+}
+
+.card_image {
+  width: 15rem;
+  height: 15rem;
+
+  background: #000000;
+  border-radius: 1.5rem;
+}
+
+.event_name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.events_tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.event_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #000249;
+}
+
+.register_link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.event_tag {
+  padding: 6px 16px;
+  gap: 4px;
+  display: inline;
+  margin-top: 0.5rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 36px;
+}
