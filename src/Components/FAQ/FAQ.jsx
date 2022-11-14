@@ -20,25 +20,16 @@ const data = {
       title: "Who is a chapter member?",
       content: `In addition to the student ambassadors, chapters must consist of chapter members. Chapter Members are µLearn membership owners who are in the chapter college, can participate in other chapter events.`,
     },
-    {
-      title: "What is the package version",
-      content: <p>current version is 1.2.1</p>,
-    },
   ],
 };
 
 const styles = {
-  // bgColor: 'white',
-  titleTextColor: "blue",
   rowTitleColor: "#202020",
-  // rowContentColor: 'grey',
-  // arrowColor: "red",
 };
 
 const config = {
-  // animate: true,
-  // arrowIcon: "V",
-  // tabFocus: true
+  animate: true,
+  tabFocus: true
 };
 
 const FAQ = () => {
