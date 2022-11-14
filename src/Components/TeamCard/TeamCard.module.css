@@ -1,14 +1,14 @@
 .team_card_container {
-  max-width: 160px;
+  max-width: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem 3rem ;
+  margin: 1.5rem 3rem;
 }
 .card_image {
-  width: 160px;
-  height: 160px;
+  width: 12rem;
+  height: 12rem;
 
   background-color: #000;
   border-radius: 16px;
@@ -40,4 +40,14 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .team_card_container {
+    max-width: 12rem;
+  }
+  .card_image {
+    width: 12rem;
+    height: 12rem;
+  }
 }
