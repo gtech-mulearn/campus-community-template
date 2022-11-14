@@ -1,0 +1,39 @@
+.footer_view_container {
+  margin-top: 4rem;
+  color: white;
+  padding: 2rem;
+  background: url("homebg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer_view {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 29px;
+  margin-top: 1rem;
+}
+
+.section_link {
+  margin-top: 1rem;
+}
+
+.section_icon {
+  margin-top: 1rem;
+  margin-right: 0.75rem;
+}
+
+.footer_second_section {
+  text-align: right;
+}

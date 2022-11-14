@@ -1,6 +1,7 @@
 import React from "react";
 import EventsCard from "../../Components/EventsCard/EventsCard";
 import FAQ from "../../Components/FAQ/FAQ";
+import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import TeamCard from "../../Components/TeamCard/TeamCard";
 import styles from "./Landing.module.css";
@@ -58,6 +59,7 @@ const Landing = () => {
             <FAQ />
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
