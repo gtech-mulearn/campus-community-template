@@ -1,11 +1,14 @@
 .event_card_container {
-  max-width: 15rem;
+  max-width: 18rem;
+
+  display: block;
+  margin: auto;
   margin: 1rem;
 }
 
 .card_image {
-  width: 15rem;
-  height: 15rem;
+  width: 18rem;
+  height: 18rem;
 
   background: #000000;
   border-radius: 1.5rem;

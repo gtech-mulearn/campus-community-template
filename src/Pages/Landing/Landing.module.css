@@ -15,6 +15,7 @@
 
 .first_view_texts {
   display: flex;
+  padding-top: 3rem;
   min-height: 60vh;
   flex-direction: column;
   justify-content: center;
@@ -118,7 +119,7 @@
 
 /* Third View Styles */
 .third_view_container {
-  margin-top: 3rem;
+  margin: 5rem 0;
   color: white;
   padding: 2rem;
   background: url("homebg.png") no-repeat center center fixed;
