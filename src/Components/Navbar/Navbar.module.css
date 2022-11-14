@@ -3,10 +3,14 @@
 }
 
 .navbar {
-  margin: 1rem;
+  margin: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar_socials {
+  display: none;
 }
 
 .navbar_options {
@@ -14,11 +18,23 @@
 }
 
 .navbar_item {
-  margin: 0.5rem;
+  margin: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 1000px) {
-  .main_container{
+  .navbar_socials {
+    display: block;
+  }
+  .navbar_item {
+    font-size: 1rem;
+  }
+
+  .navbar_social {
+    margin-right: 0.5rem;
+  }
+  .main_container {
     max-width: 1300px;
     display: block;
     margin: auto;

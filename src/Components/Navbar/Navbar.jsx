@@ -13,9 +13,26 @@ const Navbar = () => {
               alt=""
             />
             <div className={styles.navbar_options}>
-              <p className={styles.navbar_item}>Event</p>
+              <p className={styles.navbar_item}>Events</p>
               <p className={styles.navbar_item}>Team</p>
-              {/* <p className={styles.navbar_item}>Interest Group</p> */}
+              <p className={styles.navbar_item}>Interest Group</p>
+            </div>
+            <div className={styles.navbar_socials}>
+              <img
+                src="/assets/navbar/twitter.png"
+                alt=""
+                className={styles.navbar_social}
+              />
+              <img
+                src="/assets/navbar/linkedin.png"
+                alt=""
+                className={styles.navbar_social}
+              />
+              <img
+                src="/assets/navbar/instagram.png"
+                alt=""
+                className={styles.navbar_social}
+              />
             </div>
           </div>
         </div>
