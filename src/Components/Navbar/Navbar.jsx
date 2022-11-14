@@ -13,19 +13,20 @@ const Navbar = () => {
               alt=""
             />
             <div className={styles.navbar_options}>
-              {/* Replace # with Respective Links */}
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              {/* Replace /# with Respective Links */}
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <p className={styles.navbar_item}>Events</p>
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <p className={styles.navbar_item}>Team</p>
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <p className={styles.navbar_item}>Interest Group</p>
               </a>
             </div>
+
             <div className={styles.navbar_socials}>
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 {/* Replace # with Respective Links */}

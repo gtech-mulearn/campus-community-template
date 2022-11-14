@@ -9,33 +9,33 @@ const Footer = () => {
           <div className={styles.footer_first_section}>
             <p className={styles.section_label}>Menu</p>
             <div className={styles.section_links}>
-              {/* Instead of the # replace with respective links */}
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              {/* Instead of the /# replace with respective links */}
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <p className={styles.section_link}>Events</p>
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <p className={styles.section_link}>Team</p>
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <p className={styles.section_link}>Interest Groups</p>
               </a>
             </div>
             <div className={styles.section_icons}>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/footer/twitter.png"
                   alt=""
                   className={styles.section_icon}
                 />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/footer/linkedin.png"
                   alt=""
                   className={styles.section_icon}
                 />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/#" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/footer/instagram.png"
                   alt=""

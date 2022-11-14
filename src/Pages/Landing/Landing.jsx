@@ -14,7 +14,7 @@ const Landing = () => {
           <Navbar />
           <div className={styles.first_view_texts}>
             {/* Change this to your college name */}
-            <div className={styles.first_view_heading}>GTech MuLearn CUCEK</div>
+            <div className={styles.first_view_heading}>GTech µLearn CUCEK</div>
             <p className={styles.first_view_description}>
               A nonprofit network of high school coding clubs and makers around
               the world, for the students, by the students.
