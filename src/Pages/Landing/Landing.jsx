@@ -1,5 +1,6 @@
 import React from "react";
 import EventsCard from "../../Components/EventsCard/EventsCard";
+import FAQ from "../../Components/FAQ/FAQ";
 import Navbar from "../../Components/Navbar/Navbar";
 import TeamCard from "../../Components/TeamCard/TeamCard";
 import styles from "./Landing.module.css";
@@ -46,8 +47,15 @@ const Landing = () => {
               <TeamCard />
               <TeamCard />
               <TeamCard />
-              
             </div>
+          </div>
+        </div>
+        <div className={styles.faq_view_container}>
+          <div className={styles.faq_view}>
+            <p className={styles.fv_header}>
+              Frequently Asked Questions <div></div>
+            </p>
+            <FAQ />
           </div>
         </div>
       </div>

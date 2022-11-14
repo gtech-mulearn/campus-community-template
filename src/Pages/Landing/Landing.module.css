@@ -53,7 +53,7 @@
   background: #ffffff;
   box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.2);
   border-radius: 50px;
-  margin-top: 1rem;
+  margin-top: 3rem;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -90,7 +90,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 1.75rem;
+  margin-top: 3rem;
 }
 
 .sv_header div {
@@ -118,7 +118,7 @@
 
 /* Third View Styles */
 .third_view_container {
-  margin-top: 2rem;
+  margin-top: 3rem;
   color: white;
   padding: 2rem;
   background: url("homebg.png") no-repeat center center fixed;
@@ -145,7 +145,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 1.75rem;
+  margin-top: 3rem;
 }
 
 .tv_header div {
@@ -162,5 +162,49 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
+}
+
+/* FAQ Section Styles */
+
+.faq_view_container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  margin: 2rem;
+}
+
+.fv_header {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.fv_header div {
+  min-width: 60px;
+  min-height: 5px;
+  display: inline-block;
+  background-color: #0a00e1;
+  margin-left: 0.75rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .faq_view_container {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+  }
+
+  .fv_header {
+    font-size: 1.5rem;
+  }
 }
