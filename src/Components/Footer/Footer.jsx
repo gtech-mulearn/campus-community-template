@@ -9,34 +9,61 @@ const Footer = () => {
           <div className={styles.footer_first_section}>
             <p className={styles.section_label}>Menu</p>
             <div className={styles.section_links}>
-              <p className={styles.section_link}>Events</p>
-              <p className={styles.section_link}>Team</p>
-              <p className={styles.section_link}>Interest Groups</p>
+              {/* Instead of the # replace with respective links */}
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p className={styles.section_link}>Events</p>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p className={styles.section_link}>Team</p>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p className={styles.section_link}>Interest Groups</p>
+              </a>
             </div>
             <div className={styles.section_icons}>
-              <img
-                src="/assets/footer/twitter.png"
-                alt=""
-                className={styles.section_icon}
-              />
-              <img
-                src="/assets/footer/linkedin.png"
-                alt=""
-                className={styles.section_icon}
-              />
-              <img
-                src="/assets/footer/instagram.png"
-                alt=""
-                className={styles.section_icon}
-              />
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/footer/twitter.png"
+                  alt=""
+                  className={styles.section_icon}
+                />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/footer/linkedin.png"
+                  alt=""
+                  className={styles.section_icon}
+                />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/footer/instagram.png"
+                  alt=""
+                  className={styles.section_icon}
+                />
+              </a>
             </div>
           </div>
           <div className={styles.footer_second_section}>
             <p className={styles.section_label}>More Links</p>
             <div className={styles.section_links}>
-              <p className={styles.section_link}>Official Website</p>
-              <p className={styles.section_link}>Join MuLearn</p>
-              <p className={styles.section_link}>Others</p>
+              <a
+                href="http://mulearn.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className={styles.section_link}>Official Website</p>
+              </a>
+              <a
+                href="http://discord.mulearn.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className={styles.section_link}>Join MuLearn</p>
+              </a>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <p className={styles.section_link}>Others</p>
+              </a>
             </div>
           </div>
         </div>

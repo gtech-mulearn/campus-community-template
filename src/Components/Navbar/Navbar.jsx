@@ -13,26 +13,44 @@ const Navbar = () => {
               alt=""
             />
             <div className={styles.navbar_options}>
-              <p className={styles.navbar_item}>Events</p>
-              <p className={styles.navbar_item}>Team</p>
-              <p className={styles.navbar_item}>Interest Group</p>
+              {/* Replace # with Respective Links */}
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p className={styles.navbar_item}>Events</p>
+              </a>
+
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p className={styles.navbar_item}>Team</p>
+              </a>
+
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p className={styles.navbar_item}>Interest Group</p>
+              </a>
             </div>
             <div className={styles.navbar_socials}>
-              <img
-                src="/assets/navbar/twitter.png"
-                alt=""
-                className={styles.navbar_social}
-              />
-              <img
-                src="/assets/navbar/linkedin.png"
-                alt=""
-                className={styles.navbar_social}
-              />
-              <img
-                src="/assets/navbar/instagram.png"
-                alt=""
-                className={styles.navbar_social}
-              />
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                {/* Replace # with Respective Links */}
+                <img
+                  src="/assets/navbar/twitter.png"
+                  alt=""
+                  className={styles.navbar_social}
+                />
+              </a>
+
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/navbar/linkedin.png"
+                  alt=""
+                  className={styles.navbar_social}
+                />
+              </a>
+
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/navbar/instagram.png"
+                  alt=""
+                  className={styles.navbar_social}
+                />
+              </a>
             </div>
           </div>
         </div>
