@@ -20,8 +20,7 @@ const Landing = () => {
               the world, for the students, by the students.
             </p>
             <div className={styles.join_button}>
-              {/* Inside the href add link for joining your chapter */}
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="http://mulearn.org" target="_blank" rel="noopener noreferrer">
                 <button className={styles.join_campus_button}>
                   Join Us <img src="/assets/button.png" alt="" />
                 </button>

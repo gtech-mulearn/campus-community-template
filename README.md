@@ -21,15 +21,6 @@ You need to make some changes to the given template to make it usable for your c
 ```html
  <div className={styles.first_view_heading}>Enter Your College Name Here</div>
 ```
-2. The next change you'll need to make is to insert the URL to your campus chapter within the a tag.
-```html
-<a href="Enter Link Here" target="_blank" rel="noopener noreferrer">
-    <button className={styles.join_campus_button}>
-        Join Us <img src="/assets/button.png" alt="" />
-    </button>
-</a>
-
-```
 
 ## Adding Events
 1. To add an event to this template, first place the event picture (poster) in the assets folder `/assets/events/{eventname}/{filename}` .

@@ -30,9 +30,7 @@
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 126.78%;
-  color: transparent;
-  /* or 81px */
-  -webkit-text-stroke: 2px #fff;
+  color: white;
 }
 
 .first_view_description {
