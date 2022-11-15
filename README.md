@@ -8,20 +8,20 @@
 You need to make some changes to the given template to make it usable for your campus chapter. In a nutshell you would be having to edit the following parts of this template.
 
 ### Components
-- Navbar(`/src/Components/Navbar/Navbar.jsx`)
-- Footer(`/src/Components/Footer/Footer.jsx`)
+- [Navbar](/src/Components/Navbar/Navbar.jsx)
+- [Footer](/src/Components/Footer/Footer.jsx)
 
 ### Pages
-- Landing(`/src/Pages/Landing/Landing.jsx`)
+- [Landing](/src/Pages/Landing/Landing.jsx)
 
 
 # Landing Page Edits
 
-- The first change you have to make is to change the main heading to your campus chapter name.
+1. The first thing you should do is change the main heading to the name of your campus chapter.
 ```html
  <div className={styles.first_view_heading}>Enter Your College Name Here</div>
 ```
-- The next edit you would have to make is to add the link for joining your campus chapter inside the a tag.
+2. The next change you'll need to make is to insert the URL to your campus chapter within the a tag.
 ```html
 <a href="Enter Link Here" target="_blank" rel="noopener noreferrer">
     <button className={styles.join_campus_button}>
@@ -32,8 +32,9 @@ You need to make some changes to the given template to make it usable for your c
 ```
 
 ## Adding Events
-- In order to add an event to this template you would first have to add the image for the event(poster) in the assets folder `/assets/events/{eventname}/{filename}`
-- After that you can return back to the Landing Page Code at `/src/Pages/Landing/Landing.jsx`. 
+1. To add an event to this template, first place the event picture (poster) in the assets folder `/assets/events/{eventname}/{filename}` .
+
+2. You can then return to the [landing page ](/src/Pages/Landing/Landing.jsx) code. 
 ```jsx
 <EventsCard
     image="/assets/events/event1/poster.png" //Add the path to the image here
@@ -43,16 +44,16 @@ You need to make some changes to the given template to make it usable for your c
     registerlink="#" //Add the link for register to the event.
 />
 ```
-- Make changes to the EventsCard Component by providing all the necesary details required such as
-    - Event Image(From Assets Folder/Or External Link)
-    - Event Name
-    - Event Description
-    - Event Related Tags
-    - Event Registration Link(If Upcoming Event)
+3.  Changes to the events card component should be made by include all necessary information, such as
+    - Event Image (From assets folder or external link)
+    - Event name
+    - Event description
+    - Event related Tags
+    - Event registration link, if upcoming event
 
 ## Adding Team Member
-- Inorder to add the details for the Team Members you first have to add the team members images to the folder `/public/assets/team/` with relatable file name.
-- Then you need to make changes in the TeamCard Component Call which can be found at `/src/Pages/Landing/Landing.jsx`
+1. Inorder to add the details for the team members you first have to add the [team members images to the folder](/public/assets/team/) with relatable file name.
+2. Then you need to make changes in the team card component Call which can be found at [landing page](/src/Pages/Landing/Landing.jsx).
 ```jsx
 <TeamCard
     image="/assets/team/image1.png" //Add the image link here.
@@ -61,15 +62,15 @@ You need to make some changes to the given template to make it usable for your c
     position="Web Lead" //Add the Position of the Team Member.
 />
 ```
-- Make changes to the Above show Code Template by adding in all the necessary details required such as
-    - Image(From Assets Folder or External Link)
+3. Make changes to the above show code template by including all necessary details such as
+    - Image (from assets folder or external Link)
     - Name
-    - LinkedIn Profile URL
-    - Position in the Team.
+    - LinkedIn profile URL
+    - Position in the team.
 
 
 # Navbar Component Edits
-- The above mentioned navbar component can be found at `/src/Components/Navbar/Navbar.jsx`. Here in the Navbar you need add the links which are redirecting to the campus chapters socials.
+ - Here in the [navbar](src/Components/Navbar/Navbar.jsx) you need add the links which are redirecting to the campus chapters socials.
 ```html
 <a href="http://" target="_blank" rel="noopener noreferrer">
     <img
@@ -80,10 +81,10 @@ You need to make some changes to the given template to make it usable for your c
 </a>
 ```
 
-- Here replace `href="#"` with `href="Link to Social Handle"` . Similarly make changes for the rest of the icons mentioned there also.
+- Here replace `href="#"` with `href="link to social handle"`. Similarly make changes for the rest of the icons mentioned there also.
 
 # Footer Component Edits
-- The above mentioned footer component can be found at `/src/Components/Footer/Footer.jsx`. Here in the Footer component you are required to add the link which are 
+- Here in the [footer](/src/Components/Footer/Footer.jsx) component you are required to add the link which are 
 redirecting to the campus chapters social handles.
 ```html
  <a href="http:// target="_blank" rel="noopener noreferrer">
@@ -94,4 +95,4 @@ redirecting to the campus chapters social handles.
     />
 </a>
 ```
-- Here replace `href="#"` with `href="Link to Social Handle"` . Similarly make changes for the rest of the icons mentioned there also.
+- Replace `href="/#"` with `href="Link to social handle"`. Change the remaining icons mentioned there in a similar manner.
