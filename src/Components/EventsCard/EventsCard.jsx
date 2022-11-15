@@ -5,9 +5,8 @@ const EventsCard = ({ image, name, tags, description, registerlink }) => {
   return (
     <div className={styles.event_card_container}>
       <div className={styles.event_card}>
-        <div className={styles.card_image}>
-          {image && <img src={image} alt="" />}
-        </div>
+        {image && <img className={styles.card_image} src={image} alt="" />}
+
         <p className={styles.event_name}>{name}</p>
         <div className={styles.event_tags}>
           {tags && tags.map((tag) => <p className={styles.event_tag}>{tag}</p>)}

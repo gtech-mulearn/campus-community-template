@@ -29,7 +29,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className={styles.second_view_container}>
+        <div id="events" className={styles.second_view_container}>
           <div className={styles.second_view}>
             <p className={styles.sv_header}>
               Events <div></div>
@@ -37,7 +37,7 @@ const Landing = () => {
           </div>
           <div className={styles.sv_events_container}>
             <EventsCard
-              image="#" //Add the path to the image here
+              image="/assets/events/event1/poster.png" //Add the path to the image here
               name="Define Hackathon" // Add the name of the event here
               description="Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est,
           mattis urna. Malesuada amet nisi libero, urna tristique aliquam." //Add the description of the event.
@@ -45,7 +45,7 @@ const Landing = () => {
               registerlink="#" //Add the link for register to the event.
             />
             <EventsCard
-              image="#"
+              image="/assets/events/event1/poster.png"
               name="Define Hackathon"
               description="Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est,
           mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
@@ -53,7 +53,7 @@ const Landing = () => {
               registerlink="#"
             />
             <EventsCard
-              image="#"
+              image="/assets/events/event1/poster.png"
               name="Define Hackathon"
               description="Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est,
           mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
@@ -62,7 +62,7 @@ const Landing = () => {
             />
           </div>
         </div>
-        <div className={styles.third_view_container}>
+        <div id="team" className={styles.third_view_container}>
           <div className={styles.third_view}>
             <p className={styles.tv_header}>
               Team <div></div>

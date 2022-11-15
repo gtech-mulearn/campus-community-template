@@ -13,22 +13,21 @@ const Navbar = () => {
               alt=""
             />
             <div className={styles.navbar_options}>
-              {/* Replace /# with Respective Links */}
-              <a href="/#" target="_blank" rel="noopener noreferrer">
+              <a href="#events">
                 <p className={styles.navbar_item}>Events</p>
               </a>
 
-              <a href="/#" target="_blank" rel="noopener noreferrer">
+              <a href="#team">
                 <p className={styles.navbar_item}>Team</p>
               </a>
 
-              <a href="/#" target="_blank" rel="noopener noreferrer">
+              <a href="https://learn.mulearn.org" target="_blank" rel="noopener noreferrer">
                 <p className={styles.navbar_item}>Interest Group</p>
               </a>
             </div>
 
             <div className={styles.navbar_socials}>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 {/* Replace # with Respective Links */}
                 <img
                   src="/assets/navbar/twitter.png"
@@ -37,7 +36,7 @@ const Navbar = () => {
                 />
               </a>
 
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/navbar/linkedin.png"
                   alt=""
@@ -45,7 +44,7 @@ const Navbar = () => {
                 />
               </a>
 
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/navbar/instagram.png"
                   alt=""
