@@ -4,8 +4,6 @@
 
 ### Campus Chapters are a concept that are to be implemented in-house by the Students for the Students. Campus chapters seek to bring together students within a college, developing the μLearn culture from within.
 
-<br/>
-
 # How to Use
 You need to make some changes to the given template to make it usable for your campus chapter. In a nutshell you would be having to edit the following parts of this template.
 
@@ -16,7 +14,6 @@ You need to make some changes to the given template to make it usable for your c
 ### Pages
 - Landing
 
-<br/>
 
 # Landing Page Edits
 
@@ -33,7 +30,6 @@ You need to make some changes to the given template to make it usable for your c
 </a>
 
 ```
-<br/>
 
 ## Adding Events
 - In order to add an event to this template you would first have to add the image for the event(poster) in the assets folder `/assets/events/{eventname}/{filename}`
@@ -53,8 +49,6 @@ You need to make some changes to the given template to make it usable for your c
     - Event Description
     - Event Related Tags
     - Event Registration Link(If Upcoming Event)
-
-<br/>
 
 ## Adding Team Member
 - Inorder to add the details for the Team Members you first have to add the team members images to the folder `/public/assets/team/` with relatable file name.
@@ -87,8 +81,6 @@ You need to make some changes to the given template to make it usable for your c
 ```
 
 - Here replace `href="#"` with `href="Link to Social Handle"` . Similarly make changes for the rest of the icons mentioned there also.
-
-<br/>
 
 # Footer Component Edits
 - The above mentioned footer component can be found at `/src/Components/Footer/Footer.jsx`. Here in the Footer component you are required to add the link which are 
