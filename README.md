@@ -34,7 +34,7 @@ You need to make some changes to the given template to make it usable for your c
 ## Adding Events
 - In order to add an event to this template you would first have to add the image for the event(poster) in the assets folder `/assets/events/{eventname}/{filename}`
 - After that you can return back to the Landing Page Code at `/src/Pages/Landing/Landing.jsx`. 
-```html
+```jsx
 <EventsCard
     image="/assets/events/event1/poster.png" //Add the path to the image here
     name="Define Hackathon" // Add the name of the event here
@@ -53,7 +53,7 @@ You need to make some changes to the given template to make it usable for your c
 ## Adding Team Member
 - Inorder to add the details for the Team Members you first have to add the team members images to the folder `/public/assets/team/` with relatable file name.
 - Then you need to make changes in the TeamCard Component Call which can be found at `/src/Pages/Landing/Landing.jsx`
-```html
+```jsx
 <TeamCard
     image="/assets/team/image1.png" //Add the image link here.
     name="Andrea Janet" //Add the name of the Team Member.
