@@ -18,11 +18,11 @@ You need to make some changes to the given template to make it usable for your c
 # Landing Page Edits
 
 - The first change you have to make is to change the main heading to your campus chapter name.
-```
+```html
  <div className={styles.first_view_heading}>Enter Your College Name Here</div>
 ```
 - The next edit you would have to make is to add the link for joining your campus chapter inside the a tag.
-```
+```html
 <a href="Enter Link Here" target="_blank" rel="noopener noreferrer">
     <button className={styles.join_campus_button}>
         Join Us <img src="/assets/button.png" alt="" />
@@ -34,7 +34,7 @@ You need to make some changes to the given template to make it usable for your c
 ## Adding Events
 - In order to add an event to this template you would first have to add the image for the event(poster) in the assets folder `/assets/events/{eventname}/{filename}`
 - After that you can return back to the Landing Page Code at `/src/Pages/Landing/Landing.jsx`. 
-```
+```html
 <EventsCard
     image="/assets/events/event1/poster.png" //Add the path to the image here
     name="Define Hackathon" // Add the name of the event here
@@ -53,7 +53,7 @@ You need to make some changes to the given template to make it usable for your c
 ## Adding Team Member
 - Inorder to add the details for the Team Members you first have to add the team members images to the folder `/public/assets/team/` with relatable file name.
 - Then you need to make changes in the TeamCard Component Call which can be found at `/src/Pages/Landing/Landing.jsx`
-```
+```html
 <TeamCard
     image="/assets/team/image1.png" //Add the image link here.
     name="Andrea Janet" //Add the name of the Team Member.
@@ -70,7 +70,7 @@ You need to make some changes to the given template to make it usable for your c
 
 # Navbar Component Edits
 - The above mentioned navbar component can be found at `/src/Components/Navbar/Navbar.jsx`. Here in the Navbar you need add the links which are redirecting to the campus chapters socials.
-```
+```html
 <a href="http://" target="_blank" rel="noopener noreferrer">
     <img
         src="/assets/navbar/twitter.png"
@@ -85,7 +85,7 @@ You need to make some changes to the given template to make it usable for your c
 # Footer Component Edits
 - The above mentioned footer component can be found at `/src/Components/Footer/Footer.jsx`. Here in the Footer component you are required to add the link which are 
 redirecting to the campus chapters social handles.
-```
+```html
  <a href="http:// target="_blank" rel="noopener noreferrer">
     <img
         src="/assets/footer/twitter.png"
