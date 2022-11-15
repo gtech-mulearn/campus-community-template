@@ -8,11 +8,11 @@
 You need to make some changes to the given template to make it usable for your campus chapter. In a nutshell you would be having to edit the following parts of this template.
 
 ### Components
-- Navbar
-- Footer
+- Navbar(`/src/Components/Navbar/Navbar.jsx`)
+- Footer(`/src/Components/Footer/Footer.jsx`)
 
 ### Pages
-- Landing
+- Landing(`/src/Pages/Landing/Landing.jsx`)
 
 
 # Landing Page Edits
